@@ -8,7 +8,7 @@ import math, logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN  = "ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER"
+BOT_TOKEN  = "8559319703:AAEhMJp__2j5oN312H5eKnL473Y8bguQmD0"
 ADMIN_TG   = "https://t.me/in_kanareyk"   # твой тг для обратной связи
 PAGE_SIZE  = 3
 MAX_COURTS = 15
