@@ -238,11 +238,26 @@ COURTS = [
     {"id":321,"emoji":"🎾","name":"ТК Туран 30","address":"пр. Туран, 30","metro":"","city":"astana","district":"Есиль","lat":51.1320,"lon":71.4260,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"07:00–23:00","phone":"","website":"","amenities":["раздевалки","тренеры","парковка"]},
     {"id":322,"emoji":"🎾","name":"ТК Туран 4/2","address":"пр. Туран, 4/2, 2 этаж","metro":"","city":"astana","district":"Есиль","lat":51.1380,"lon":71.4190,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":4,"hours":"07:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
     {"id":323,"emoji":"🎾","name":"Tennis Astana (QSI)","address":"ул. Сауран, 20","metro":"","city":"astana","district":"Есиль","lat":51.1260,"lon":71.4380,"type":"платно","price":"уточняйте на сайте","surface":["универсальная"],"indoor":True,"courts_count":2,"hours":"08:00–21:00","phone":"","website":"https://tennis-astana.kz","amenities":["⚠️ Пробный урок бесплатно","тренеры","прокат инвентаря"]},
-    # ── Старые записи (оставляем для совместимости) ──
-    {"id":300,"emoji":"🏆","name":"Теннисный центр Нур-Султан","address":"пр. Туран, 57 (Дворец спорта)","metro":"","city":"astana","district":"Есиль","city":"moscow","lat":51.1286,"lon":71.4306,"type":"платно","price":"от 3 000 ₸/час","surface":["хард"],"indoor":True,"courts_count":10,"hours":"07:00–23:00","phone":"+7 (7172) 57-77-00","website":"","amenities":["раздевалки","душ","тренеры","кафе","парковка"]},
-    {"id":301,"emoji":"🎾","name":"Теннисный клуб Астана","address":"ул. Достык, 14","metro":"","city":"astana","district":"Алматинский","city":"moscow","lat":51.1605,"lon":71.4491,"type":"платно","price":"от 2 500 ₸/час","surface":["хард","ковёр"],"indoor":True,"courts_count":6,"hours":"08:00–22:00","phone":"+7 (701) 555-11-22","website":"","amenities":["раздевалки","душ","тренеры","прокат ракеток"]},
-    {"id":302,"emoji":"🌿","name":"Корты в парке Президентский","address":"пр. Кабанбай батыра (Президентский парк)","metro":"","city":"astana","district":"Есиль","city":"moscow","lat":51.1214,"lon":71.4128,"type":"бесплатно","price":"Бесплатно","surface":["хард"],"indoor":False,"courts_count":2,"hours":"08:00–22:00","phone":"","website":"","amenities":["✅ Свободный доступ","⚠️ Свои ракетки и мячи"]},
-    {"id":303,"emoji":"🌊","name":"Теннисный центр Байтерек","address":"пр. Нурсултана Назарбаева, 45","metro":"","city":"astana","district":"Алматинский","city":"moscow","lat":51.1280,"lon":71.4300,"type":"платно","price":"от 2 000 ₸/час","surface":["хард"],"indoor":True,"courts_count":4,"hours":"08:00–22:00","phone":"+7 (7172) 44-55-66","website":"","amenities":["раздевалки","тренеры","парковка"]},
+    # ── Старые записи (исправлены) ──
+    {"id":300,"emoji":"🏆","name":"Теннисный центр Нур-Султан","address":"пр. Туран, 57 (Дворец спорта)","metro":"","city":"astana","district":"Есиль","lat":51.1286,"lon":71.4306,"type":"платно","price":"от 3 000 ₸/час","surface":["хард"],"indoor":True,"courts_count":10,"hours":"07:00–23:00","phone":"+7 (7172) 57-77-00","website":"","amenities":["раздевалки","душ","тренеры","кафе","парковка"]},
+    {"id":301,"emoji":"🎾","name":"Теннисный клуб Астана (Достык)","address":"ул. Достык, 14","metro":"","city":"astana","district":"Алматинский","lat":51.1605,"lon":71.4491,"type":"платно","price":"от 2 500 ₸/час","surface":["хард","ковёр"],"indoor":True,"courts_count":6,"hours":"08:00–22:00","phone":"+7 (701) 555-11-22","website":"","amenities":["раздевалки","душ","тренеры","прокат ракеток"]},
+    {"id":302,"emoji":"🌿","name":"Корты в Президентском парке","address":"пр. Кабанбай батыра (Президентский парк)","metro":"","city":"astana","district":"Есиль","lat":51.1214,"lon":71.4128,"type":"бесплатно","price":"Бесплатно","surface":["хард"],"indoor":False,"courts_count":2,"hours":"08:00–22:00","phone":"","website":"","amenities":["✅ Свободный доступ","⚠️ Свои ракетки и мячи"]},
+    {"id":303,"emoji":"🌊","name":"Теннисный центр Байтерек","address":"пр. Нурсултана Назарбаева, 45","metro":"","city":"astana","district":"Алматинский","lat":51.1280,"lon":71.4300,"type":"платно","price":"от 2 000 ₸/час","surface":["хард"],"indoor":True,"courts_count":4,"hours":"08:00–22:00","phone":"+7 (7172) 44-55-66","website":"","amenities":["раздевалки","тренеры","парковка"]},
+    # ── Новые корты из 2ГИС ──
+    {"id":324,"emoji":"🎾","name":"Толкын","address":"пр. Тауелсиздик, 2","metro":"","city":"astana","district":"Алматинский","lat":51.1720,"lon":71.4130,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
+    {"id":325,"emoji":"🎾","name":"Fitness Palace (теннис)","address":"пр. Туран, 30","metro":"","city":"astana","district":"Есиль","lat":51.1320,"lon":71.4260,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"07:00–23:00","phone":"","website":"","amenities":["раздевалки","душ","фитнес","бассейн","тренеры"]},
+    {"id":326,"emoji":"🎾","name":"Arsenal Tennis","address":"ул. Ыбырая Алтынсарина, 4","metro":"","city":"astana","district":"Алматинский","lat":51.1650,"lon":71.4280,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":4,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры","детские группы"]},
+    {"id":327,"emoji":"🎾","name":"Dopshy Arena","address":"ул. Сыганак, 6/1","metro":"","city":"astana","district":"Есиль","lat":51.1200,"lon":71.4350,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":6,"hours":"07:00–23:00","phone":"","website":"","amenities":["раздевалки","душ","тренеры","парковка"]},
+    {"id":328,"emoji":"🎾","name":"Cool Space (теннис)","address":"пр. Рахимжана Кошкарбаева, 10","metro":"","city":"astana","district":"Алматинский","lat":51.1700,"lon":71.4500,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
+    {"id":329,"emoji":"🎾","name":"Underground Gym (теннис)","address":"ул. Жанибека Тархана, 17","metro":"","city":"astana","district":"Есиль","lat":51.1380,"lon":71.4050,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры","фитнес"]},
+    {"id":330,"emoji":"🎾","name":"Karate Center (теннис)","address":"ул. Жумабека Ташенова, 7/2","metro":"","city":"astana","district":"Алматинский","lat":51.1620,"lon":71.4370,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"09:00–21:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
+    {"id":331,"emoji":"🎾","name":"Qazaq Batyry","address":"пр. Мангилик Ел, 17А","metro":"","city":"astana","district":"Есиль","lat":51.1150,"lon":71.4200,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
+    {"id":332,"emoji":"🎾","name":"TechnoGym (теннис)","address":"пр. Мангилик Ел, 51","metro":"","city":"astana","district":"Есиль","lat":51.1090,"lon":71.4150,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"07:00–23:00","phone":"","website":"","amenities":["раздевалки","тренажёрный зал","тренеры"]},
+    {"id":333,"emoji":"🎾","name":"Bali SPA (теннис)","address":"ул. Динмухамеда Кунаева, 29/2","metro":"","city":"astana","district":"Есиль","lat":51.1290,"lon":71.4420,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","spa","бассейн","тренеры"]},
+    {"id":334,"emoji":"🎾","name":"Sport Time","address":"ул. Каныша Сатпаева, 25","metro":"","city":"astana","district":"Алматинский","lat":51.1650,"lon":71.4200,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
+    {"id":335,"emoji":"🎾","name":"Underground Gym 2 (Сатпаева)","address":"ул. Каныша Сатпаева, 22","metro":"","city":"astana","district":"Алматинский","lat":51.1645,"lon":71.4205,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":2,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры","фитнес"]},
+    {"id":336,"emoji":"🌿","name":"Корты в мкр. Юго-Восток","address":"мкр. Юго-Восток, Астана","metro":"","city":"astana","district":"Сарыарка","lat":51.1450,"lon":71.5100,"type":"бесплатно","price":"Бесплатно","surface":["хард"],"indoor":False,"courts_count":2,"hours":"Круглосуточно","phone":"","website":"","amenities":["✅ Свободный доступ","⚠️ Свои ракетки и мячи"]},
+    {"id":337,"emoji":"🎾","name":"Темирказык","address":"ул. Темирказык, 63, мкр. Шубар","metro":"","city":"astana","district":"Алматинский","lat":51.1800,"lon":71.4800,"type":"платно","price":"уточняйте на сайте","surface":["хард"],"indoor":True,"courts_count":3,"hours":"08:00–22:00","phone":"","website":"","amenities":["раздевалки","тренеры"]},
 ]
 
 
@@ -335,7 +350,7 @@ def filter_courts(pay_type,surface,indoor,lat,lon,city="moscow",mode="court"):
             if indoor=="indoor" and not c["indoor"]: continue
             if indoor=="outdoor" and c["indoor"]: continue
         d=dict(c); d["distance_km"]=haversine(lat,lon,d["lat"],d["lon"]); res.append(d)
-    return sorted(res,key=lambda x:x["distance_km"])[:MAX_COURTS]
+    return sorted(res,key=lambda x:x["distance_km"])[:MAX_COURTS] if city in ("moscow","spb") else sorted(res,key=lambda x:x["distance_km"])
 
 def format_card(c):
     roof="🏠 Крытый" if c["indoor"] else "☀️ Открытый"
@@ -552,9 +567,16 @@ async def handle_location(update:Update,context:ContextTypes.DEFAULT_TYPE):
 
 async def handle_text(update:Update,context:ContextTypes.DEFAULT_TYPE):
     if not context.user_data.get("waiting_metro"): return
+    city=context.user_data.get("city","moscow")
+    if city=="astana":
+        await update.message.reply_text(
+            "🌟 В Астане нет метро!\n\nПожалуйста, отправь геолокацию:\nНажми на скрепку 📎 → *Геопозиция*",
+            parse_mode="Markdown")
+        return
     inp=update.message.text.strip(); coords=find_metro(inp)
     if not coords:
-        await update.message.reply_text(f"😔 Станция *{inp}* не найдена.\n\nПопробуй иначе, например: _Динамо_, _Сокольники_",parse_mode="Markdown"); return
+        example="_Динамо_, _Сокольники_" if city=="moscow" else "_Невский проспект_, _Московская_"
+        await update.message.reply_text(f"😔 Станция *{inp}* не найдена.\n\nПопробуй иначе, например: {example}",parse_mode="Markdown"); return
     context.user_data["waiting_metro"]=False
     await process(update,context,coords[0],coords[1],"metro",inp)
 
@@ -566,7 +588,7 @@ async def process(update,context,lat,lon,source,metro_name=""):
     mode=context.user_data.get("mode","court")
     if not city: await update.message.reply_text("Сначала выбери параметры — нажми /start 🎾"); return
     courts=filter_courts(pt,surf,ind,lat,lon,city,mode); context.user_data["results"]=courts
-    if not courts: await update.message.reply_text("😔 Ничего не найдено рядом. Попробуй /start и измени параметры."); return
+    if not courts: await update.message.reply_text("😔 Ничего не найдено рядом. Попробуй /start и измени параметры.\n\nНашли корт, которого нет в боте? Пишите: @in_kanareyk 🎾"); return
     city_name=CITY_NAMES.get(city,"")
     header=f"🚇 Рядом со станцией *{metro_name.title()}*" if source=="metro" else f"📍 Рядом с тобой · {city_name}"
     if mode=="wall":
